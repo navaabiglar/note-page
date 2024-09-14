@@ -1,0 +1,45 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: rgb(161,192,207);
+    width: 70%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(200, 55, 80);
+    color: white;
+    width: 30%;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+input{
+    border: none;
+    width: 100%;
+    height: 100px;
+}
+.placeholder{
+    position: absolute;
+    top: 50%;
+}
+.note_box{
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.note_box i{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    color: rgb(118, 117, 117);
+}
+
+
